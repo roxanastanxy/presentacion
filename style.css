@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Shrikhand-Regular";
+  src: url("/../fonts/Shrikhand-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AbrilFatface-Regular";
+  src: url("/../fonts/AbrilFatface-Regular.ttf");
+}
+html{
+    max-width: 100%;
+}
+
+@font-face {
+  font-family: "HerrVonMuellerhoff-Regular";
+  src: url("/../fonts/HerrVonMuellerhoff-Regular.ttf");
+}
+
+@font-face {
+  font-family: "UbuntuMono-Bold";
+  src: url("/../fonts/UbuntuMono-Bold.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab-LightItalic";
+  src: url("/../fonts/JosefinSlab-LightItalic.ttf");
+}
+body{
+        max-width: 100%;
+    background-color: #6f577c;
+   overflow-x: hidden;
+}
+.container{
+     width:90%;
+    margin: 0 auto;
+    max-width: 900px;
+    border: solid;
+    padding: 2em;
+    box-shadow: 5px 5px 5px;
+    padding-left: 3em;
+    background-color: rgba(255, 255, 255, .5);
+}
+h1{
+    font-family: 'Shrikhand-Regular', cursive;
+    letter-spacing: 0.1em;
+    color: burlywood;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black ;
+    text-transform: capitalize;
+}
+h2{
+    font-family: 'AbrilFatface-Regular', serif;
+    letter-spacing:1px;
+    text-shadow: -1px 1px 2px white ;
+}
+a{
+ font-style: oblique;
+    text-decoration: underline;
+    color:blue;
+    background-color:darkgray;
+    
+}
+.direccion{
+     font-family: "UbuntuMono-Bold";
+}
+.adress{
+    text-align: right;
+    margin-right: 2em;
+      font-family: "UbuntuMono-Bold";
+}
+p{
+    text-indent: 20px;
+}
+article{
+    text-align: justify;
+    font-family:  'JosefinSlab-LightItalic';
+}
+span{
+    font-family: "HerrVonMuellerhoff-Regular";
+font-weight: bold;
+    font-size: 25px;
+}
+.firma{
+    text-align: right;
+     font-family:  'JosefinSlab-LightItalic';
+}
+
+
+.fa-whatsapp{
+    color:white;
+   background-color: darkgreen;
+    border-radius: 30px;
+    width: 22px;
+    height: 21px;
+ 
+    
+}
+.fa-linkedin-square{
+   
+    font-size: 4em;
+}
+ a:hover{
+   color: brown;
+}
